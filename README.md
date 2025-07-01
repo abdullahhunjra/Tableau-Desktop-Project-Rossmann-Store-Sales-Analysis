@@ -1,6 +1,6 @@
 # 🏬 Rossmann Store Sales Analysis (Tableau Project)
 
-This Tableau project provides a visual deep-dive into sales performance across Rossmann’s store network. Using a cleaned dataset, it explores high-level KPIs, sales trends, and external business drivers like promotions, holidays, and store competition.
+This Tableau project presents a visual deep-dive into sales performance across Rossmann’s store network. Leveraging a cleaned dataset, it explores key sales KPIs, seasonal trends, and external business drivers such as promotions, holidays, customer behavior, and local competition.
 
 ---
 
@@ -8,39 +8,38 @@ This Tableau project provides a visual deep-dive into sales performance across R
 
 ### 1️⃣ Rossmann Overview Dashboard
 
-> An executive-level summary that includes:
+> A high-level summary for quick executive insight:
 
 - 💰 **Total Sales**, 👥 **Customers**, 📊 **Avg Sales/Customer**, 🏪 **Total Stores**
-- 📈 Monthly Sales Trends with Moving Average
+- 📈 Monthly Sales Trends with Moving Averages
 - 🥇 Top Performing Stores
 - 🏷️ Sales Performance by Store Type
 
 📷 **Preview:**  
-![Overview Dashboard](Images/Sales_Overview.png)
+![Overview Dashboard](Images/overview_dashboard.png)
 
 ---
 
 ### 2️⃣ Factors Driving Sales Performance
 
-> A deeper look into external influences affecting store sales:
+> A deeper exploration of external and internal factors influencing store sales:
 
-- 🎁 Promo vs Non-Promo Sales Impact
-- 🧩 Sales by Assortment Strategy
-- 👥 Correlation Between Customer Count and Sales
-- 📅 Impact of State & School Holidays
-- 🔁 Promo2 Effectiveness
-- 📍 Competition Distance Influence
+- 🎁 Promo vs Non-Promo Sales Impact  
+- 🧩 Sales by Assortment Strategy  
+- 👥 Customer Count vs Sales Correlation  
+- 📅 Impact of State & School Holidays  
+- 🔁 Promo2 Timeline Effectiveness  
+- 📍 Competition Distance Analysis  
 
 📷 **Preview:**  
-![Factors Dashboard](Images/Factors_Driving_Sales_Peformance.png)
+![Factors Dashboard](Images/factors_dashboard.png)
 
 ---
+
 ### 🌐 View the Interactive Tableau Project  
 🔗 [Rossmann Store Sales Dashboard on Tableau Public](https://public.tableau.com/views/Rossmann_Stores_Sales_Analysis/RossmanStoresSalesOverview)
 
-
-
-
+---
 
 ## 📁 Project Structure
 
@@ -62,20 +61,20 @@ rossmann-tableau-dashboard/
 │
 ├── README.md
 └── LICENSE
-
+```
 
 ---
 
 ## 📥 Data Source
 
-- [Kaggle: Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales)
-cleaned and stored in Data folder as Rossmann_Sales_Data.csv
+- 📂 Source: [Kaggle – Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales)  
+  Cleaned and exported as `rossmann_combined_clean.csv` (stored in the `/Data` directory)
 
 ---
 
 ## 👨‍💻 Author
 
-**Abdullah Shahzad**  
+**Abdullah Shahzad Hunjra**  
 📧 Email: [abdullahshahzadhunjra@gmail.com](mailto:abdullahshahzadhunjra@gmail.com)  
 🔗 GitHub: [github.com/abdullahhunjra](https://github.com/abdullahhunjra)  
 🔗 LinkedIn: [linkedin.com/in/abdullahhunjra](https://linkedin.com/in/abdullahhunjra)
@@ -84,4 +83,5 @@ cleaned and stored in Data folder as Rossmann_Sales_Data.csv
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).  
+You’re welcome to explore the insights, but please credit the author if reused in public portfolios or writeups.
