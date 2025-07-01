@@ -68,7 +68,7 @@ rossmann-tableau-dashboard/
 ## 📥 Data Source
 
 - 📂 Source: [Kaggle – Rossmann Store Sales](https://www.kaggle.com/competitions/rossmann-store-sales)  
-  Cleaned and exported as `Rossmann_Store_Sales.csv` (stored in the `/Data` directory)
+  Cleaned and exported as `Rossmann_Sales_Data.csv` (stored in the `/Data` directory)
 
 ---
 
