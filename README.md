@@ -16,7 +16,7 @@ This Tableau project presents a visual deep-dive into sales performance across R
 - 🏷️ Sales Performance by Store Type
 
 📷 **Preview:**  
-![Overview Dashboard](Images/overview_dashboard.png)
+![Overview Dashboard](Images/Sales_Overview.png)
 
 ---
 
@@ -32,7 +32,7 @@ This Tableau project presents a visual deep-dive into sales performance across R
 - 📍 Competition Distance Analysis  
 
 📷 **Preview:**  
-![Factors Dashboard](Images/factors_dashboard.png)
+![Factors Dashboard](Images/Factors_Driving_Sales_Peformance.png)
 
 ---
 
@@ -47,17 +47,15 @@ This Tableau project presents a visual deep-dive into sales performance across R
 rossmann-tableau-dashboard/
 │
 ├── Tableau Dashboards/
-│   └── rossmann_sales_analysis.twbx
+│   └── Rossmann_Stores_Sales_Analysis.twbx
 │
 ├── Data/
-│   ├── rossmann_combined_clean.csv
-│   └── original_sources.txt
+│   └── Rossmann_Stores_Data.csv
 │
 ├── Images/
-│   ├── overview_dashboard.png
-│   ├── factors_dashboard.png
-│   ├── kpi_closeup.png
-│   └── weekly_sales_trend.png
+│   ├── Sales_Overview.png
+│   ├── Factors_Driving_Sales_Peformance.png
+│   ├── KPIs.png
 │
 ├── README.md
 └── LICENSE
